@@ -2,7 +2,7 @@
 # 爬虫知识梳理
 
 ### 爬虫开发环境介绍 
-![file](爬虫开发环境.md)
+[file](爬虫开发环境.md?_blank）
 
 ### 爬虫系统涉及知识
 1. http协议 与 https协议 （https://langgithub.github.io/2019/06/13/http%E4%B8%8Ehttps/）
