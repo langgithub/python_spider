@@ -2,15 +2,15 @@
 # 爬虫知识梳理
 
 ### 爬虫开发环境介绍 
-[file](https://github.com/langgithub/python_spider/blob/master/%E7%88%AC%E8%99%AB%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.MD?_blank）
+爬虫开发环境.md (https://github.com/langgithub/python_spider/blob/master/%E7%88%AC%E8%99%AB%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.MD）
 
 ### 爬虫系统涉及知识
 1. http协议 与 https协议 （https://langgithub.github.io/2019/06/13/http%E4%B8%8Ehttps/）
 2. Cookie池
 3. User-Agent池 查看文件 （https://github.com/langgithub/python_spider/blob/master/User-Agent.txt）
 4. ip代理池
-短效代理 站大爷
-长效代理 购买服务器，装adsl服务
+短效代理=>站大爷
+长效代理=>购买服务器，装adsl服务
 5. DNS缓存 爬虫框架会涉及
 6. 抓包 fiddler,charles
 
@@ -23,7 +23,7 @@
 2. 离线爬虫 （requests模块，scrapy模块）
 
 ### 按照难度爬虫分类
-1. 接口爬虫
+1. 接口爬虫 （抓取破解）
 2. selenium自动化爬虫
     * 启动hub集群（需要其他参数自行看）
     > java -jar selenium-server-standalone-3.8.1.jar -role hub -browserTimeout 60
