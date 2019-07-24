@@ -47,6 +47,6 @@
     > 2. node 是chrome。注意Dwebdriver.chrome.driver路径
     java  -Dwebdriver.chrome.driver=/Users/yuanlang/work/javascript/chromedriver -jar selenium-server-standalone-3.8.1.jar -role node  -hub http://192.168.176.1:4444/grid/register  -browser  browserName=chrome
     
-    > 3. node 是IE。注意Dwebdriver.ie.driver路径
-    java  -Dwebdriver.ie.driver=D:/IEDrvierServer.ext -jar selenium-server-standalone-3.8.1.jar -role node  -hub http://192.168.176.1:4444/grid/register  -browser  browserName=ie
+    > 3. node 是IE。selenum2.x 注意Dwebdriver.ie.driver路径;selenium3.x已经废除-Dwebdriver.ie.driver 需要将IEDriverServer.exe 放入到c:\program files\internet explorer 并添加到path
+    java  -jar selenium-server-standalone-3.8.1.jar -role node  -hub http://192.168.176.1:4444/grid/register  -browser  browserName=ie
 3. 集成自动化到docker
