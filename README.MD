@@ -53,7 +53,7 @@
 3. 集成自动化到docker
 4. 密码控件爬虫
     * 密码控件类型爬虫无法使用selenium聚焦，点击。密码控件是hook键盘信号。这里可以采用DD 信号驱动键盘
-    * DD键盘目前是win平台，其他平台没有测试。需要按照 win32api 模块
-    * 详细请查考密码控件爬虫.py 内部附带某行测试脚步
+    * DD键盘目前是win平台，其他平台没有测试。需要安装 win32api 模块
+    * 详细请查考密码控件爬虫.py （附带某行测试脚步）（https://github.com/langgithub/python_spider/blob/master/%E5%AF%86%E7%A0%81%E6%8E%A7%E4%BB%B6%E7%88%AC%E8%99%AB.py）
     
     
