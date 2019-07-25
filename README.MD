@@ -50,7 +50,7 @@
     
     > 3. node 是IE。selenum2.x 注意Dwebdriver.ie.driver路径;selenium3.x已经废除-Dwebdriver.ie.driver 需要将IEDriverServer.exe 放入到c:\program files\internet explorer 并添加到path
     java  -jar selenium-server-standalone-3.8.1.jar -role node  -hub http://192.168.176.1:4444/grid/register  -browser  browserName=ie
-3. 集成自动化到docker
+3. 集成自动化到docker (https://www.lfhacks.com/tech/selenium-docker)
 4. 密码控件爬虫
     * 密码控件类型爬虫无法使用selenium聚焦，点击。密码控件是hook键盘信号。这里可以采用DD 信号驱动键盘
     * DD键盘目前是win平台，其他平台没有测试。需要安装 win32api 模块
